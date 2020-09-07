@@ -1,14 +1,14 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'Domino Editor',
+  title: 'Domino Editor',
+  tagline: 'A Block-Style Web Content Editor',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'psyhyde', // Usually your GitHub org/user name.
+  projectName: 'docusaurus-2', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Domino Editor',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -22,7 +22,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/psyhyde/docusaurus-2',
           label: 'GitHub',
           position: 'right',
         },
